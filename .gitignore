@@ -1,0 +1,82 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+*.log
+
+# Bytecode cache
+*.pyc
+
+# Compiled C extensions
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Virtual Environments
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Unit test / coverage reports
+nosetests.xml
+test-results.xml
+junit-*.xml
+
+# pyright
+typings/
+
+# === VS Code ===
+.vscode/
+
+# === PyCharm / JetBrains ===
+.idea/
+*.iml
+
+# === macOS ===
+.DS_Store
+
+# === Linux ===
+*.swp
+*~
+
+# === Windows ===
+Thumbs.db
+desktop.ini
+
+# === Output folders ===
+output/
