@@ -7,8 +7,9 @@ OUTPUT_PATH = "output/ride_bookings.csv"
 
 def etl_pipeline_ride_bookings(input_path: str, output_path: str):
     df = extract_data(input_path)
-
     df_clean = transform_data(df)
+    print(df_clean.head())
+    print(df_clean.info())
 
     save_data(df_clean, output_path)
 

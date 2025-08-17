@@ -1,9 +1,5 @@
 import pandas as pd
-from queries import (
-    total_income,
-    average_distance,
-    apparent_cancellation_rate
-)
+from .queries import total_income, average_distance, apparent_cancellation_rate
 
 def save_data(df: pd.DataFrame, path: str):
     pass
